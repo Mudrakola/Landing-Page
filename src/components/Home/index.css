@@ -1,0 +1,588 @@
+.home-container {
+  background: #222222;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-1-container {
+  width: 1280px;
+  height: 550px;
+  top: 120px;
+  left: 80px;
+  border-radius: 16px;
+  background: #ffffff;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container-1 {
+  margin: 15px;
+  padding-left: 35px;
+}
+.header-left-container {
+  background-image: url('https://res.cloudinary.com/dlj7gj1po/image/upload/v1696421756/gcrthhe62w4lvsighnj0.png');
+  width: 50%;
+  height: 100%;
+}
+
+.header-heading {
+  width: 450px;
+  height: 240px;
+  font-family: 'Roboto';
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-weight: bold;
+  color: #000000;
+}
+
+.header-1-paragraph {
+  width: 515px;
+  height: 64px;
+  top: 339px;
+  left: 60px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #555555;
+}
+
+.video-button {
+  width: 220px;
+  height: 56px;
+  top: 431px;
+  left: 60px;
+  border: 1px;
+  border: 1px solid #e8e8e84f;
+  display: flex;
+  align-items: center;
+}
+
+.watch-button {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
+  padding-left: 10px;
+}
+
+.popular-hotel-container {
+  width: 1280px;
+  height: 656px;
+  top: 896px;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.popular-hotels-heading {
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.view-all-button {
+  width: 109px;
+  height: 40px;
+  top: 88px;
+  left: 1171px;
+  border-radius: 280px;
+  color: #ffffff;
+  background: #ff766566;
+  border-width: 0px;
+  align-self: flex-end;
+}
+
+.card-container-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.hotel-card-container {
+  width: 411px;
+  height: 480px;
+  top: 176px;
+  border-radius: 16px;
+  border: 1px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  border-width: 0px;
+  margin-right: 15px;
+}
+
+.card-image {
+  width: 411px;
+  height: 320px;
+  top: 176px;
+  border-radius: 16px, 16px, 0px, 0px;
+}
+
+.card-details-container {
+  width: 302px;
+  height: 72px;
+  top: 546px;
+  left: 16px;
+  border: 1px;
+  border: 1px solid #dddddd;
+  margin: 15px;
+  border-width: 0px;
+}
+
+.card-detail-heading {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
+}
+.amount-container {
+  display: flex;
+  align-items: center;
+}
+
+.amount {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
+}
+
+.line-1 {
+  border: 1px solid #dddddd;
+  height: 16px;
+}
+
+.hotel-facilities-container {
+  width: 1279px;
+  height: 410px;
+  top: 1699px;
+  left: 80px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.facilities-details {
+  width: 411px;
+  height: 310px;
+  border-radius: 35px;
+}
+
+.facilities-heading {
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.facilities-para {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.contact-button {
+  width: 120px;
+  height: 50px;
+  top: 254px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 35px;
+  gap: 10px;
+  background: #ff7665cc;
+  color: #ffffff;
+  font-size: 15px;
+  border-width: 0px;
+  margin-top: 30px;
+}
+
+.list-container-2 {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  align-self: flex-end;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-container {
+  width: 1280px;
+  height: 520px;
+  top: 2229px;
+  left: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.about-details {
+  width: 497px;
+  height: 368px;
+  top: 76px;
+  left: 698px;
+  border-radius: 35px;
+  margin-left: 30px;
+}
+
+.about-heading {
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.paragraph {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #555555;
+}
+
+.explore-more-button {
+  width: 130px;
+  height: 50px;
+  top: 388px;
+  left: 698px;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 35px;
+  gap: 10px;
+  background: #ff7665;
+  border-width: 0px;
+  color: #ffffff;
+}
+
+.faq-container {
+  width: 1169px;
+  height: 395px;
+  top: 2921px;
+  left: 144px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.faq-heading {
+  font-family: Open Sans;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 62px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 411px;
+  height: 124px;
+  top: 2902px;
+  left: 138px;
+}
+
+.spanfaq {
+  color: #ff7665;
+}
+
+.faq-para {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 410px;
+  height: 48px;
+  top: 3043px;
+  left: 144px;
+}
+.faq-right-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.fql-question-1 {
+  width: 682px;
+  height: 220px;
+  top: 2921px;
+  left: 631px;
+  border-radius: 5px;
+  border: 1px;
+  border: 1px solid #585858;
+  box-shadow: 6px 10px 50px 0px #a8afb740;
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+.faq-qus-1 {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0c1623;
+}
+
+.faq-para {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 500px;
+  color: #1d263ae5;
+}
+
+.fq-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.fql-question-2 {
+  width: 682px;
+  height: 80px;
+  top: 3136px;
+  left: 631px;
+  border-radius: 5px;
+  border: 1px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.map {
+  background-image: url('https://res.cloudinary.com/dlj7gj1po/image/upload/v1696432535/m9xum4remcfkrnkbthnb.png');
+  width: 1280px;
+  height: 677px;
+  border-radius: 16px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 35px;
+  margin-bottom: 80px;
+}
+
+.map-card {
+  width: 1194px;
+  height: 199px;
+  top: 435px;
+  left: 43px;
+  background-color: #ffffff;
+  padding-left: 35px;
+  border-radius: 15px;
+}
+
+.visit-us-heading {
+  font-family: Open Sans;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
+}
+
+.visit-us-para {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #555555;
+  width: 510px;
+  height: 56px;
+  top: 535px;
+  left: 109px;
+}
+
+.input-container {
+  width: 436px;
+  height: 56px;
+  top: 535px;
+  left: 735px;
+  border-radius: 50px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-button {
+  width: 124px;
+  height: 56px;
+  top: 535px;
+  left: 1047px;
+  border-radius: 50px;
+  background: #d36558cc;
+  color: #ffffff;
+}
+
+.input-ele {
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+}
+
+.visit-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1342px;
+  height: 343px;
+  padding: 20px;
+  top: 4274px;
+  background-image: url('https://res.cloudinary.com/dlj7gj1po/image/upload/v1696433855/nj8tda54c1mghohpf7t5.png');
+}
+
+.footer-card {
+  width: 1062px;
+  height: 208px;
+  top: 4346px;
+  left: 189px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.looking-forward-container {
+  width: 264px;
+  height: 120px;
+  top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.looking-forward-para {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer-list-container {
+  padding-left: 0px;
+  list-style-type: none;
+  width: 69px;
+  height: 200px;
+  top: 8px;
+  left: 430px;
+}
+
+.footer-list-container-2 {
+  padding-left: 0px;
+  list-style-type: none;
+  width: 100px;
+  height: 200px;
+  top: 8px;
+  left: 430px;
+}
+
+.footer-list-heading {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer-list-item {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.footer-list-container-3 {
+  width: 132px;
+  height: 120px;
+  top: 8px;
+  left: 930px;
+  list-style-type: none;
+  padding-left: 0px;
+}
