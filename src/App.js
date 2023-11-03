@@ -1,7 +1,7 @@
-import Home from './components/Home'
+import LandingPage from './components/LandingPage'
 
 import './App.css'
 
-const App = () => <Home />
+const App = () => <LandingPage />
 
 export default App
